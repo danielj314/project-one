@@ -1,8 +1,8 @@
-<h1 align="center">Wendy's Flowers website</h1>
+<h1 align="center">The Jets website</h1>
 
 [View the live project here.](https://github.com/danielj314/project-one)
 
-This is the main marketing website for Wendy's Flowers. It is designed to provide information about the company to clients and potential customers.
+This is the main marketing website for The Jets. It is designed to market the band to fans and potential listeners and to inform them of upcoming shows.
 
 
 ## User Experience (UX)
@@ -13,12 +13,12 @@ This is the main marketing website for Wendy's Flowers. It is designed to provid
 
         1. As a First Time Visitor, I want to easily understand what the website is for and how to use the service.
         2. As a First Time Visitor, I want to be able to navigate through the site easily to find the content I need.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        3. As a First Time Visitor, I want to understand what kind of music the band plays and what their live shows are like. I also want to know who the band bembers are and locate their social media links in order to get to know them better.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information regarding making purchases.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        1. As a Returning Visitor, I want to find information regarding upcoming shows.
+        2. As a Returning Visitor, I want to find the best way to purchase tickets and merchandise.
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any new products or special offers available.
@@ -26,19 +26,21 @@ This is the main marketing website for Wendy's Flowers. It is designed to provid
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are yellow and green.
+        -   The two main colours used are Orange and dark blue. These compliment the footage and photographs of the live shows that are used on the website.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Arimo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Arimo is clean and attractive, and appropriate. The "Permanent Marker" font will be used for headings. it is clearly readable and adds character to the site, which reflects the band's strong sound.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, elegant aesthetic.
-
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It gives the visitor an imediate idea of the style of music that the band plays.
+    -   #### Audio
+        -   The most important aspect of any band is the music. this will have to be utilised well on the site.. 
+<!-- 
 *   ### Wireframes
 
     -   Home Page Wireframe - [View](https://github.com/)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Contact Us Page Wireframe - [View](https://github.com/) -->
 
 ## Features
 
@@ -63,16 +65,10 @@ This is the main marketing website for Wendy's Flowers. It is designed to provid
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
@@ -81,7 +77,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-### Testing User Stories from User Experience (UX) Section
+
+
+<!-- ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
@@ -212,14 +210,21 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours) 
+ -->
 
 ### Media
 
--   All Images were created by the developer.
+-   Images downloaded from https://www.pexels.com/ a free stock photo library.
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+
+### Bugs
+
+-   Menu items displaying back to front when floating list items left. I solved this with a google search to https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
+there was a piece of example code wich showed how to re-order the list items in the menu.
