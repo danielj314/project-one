@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>The Jets!</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2fa4b1b3b0.js" crossorigin="anonymous"></script>
+
+    <title>The Jets!</title>
+</head>
+
 <body>
     <header>
-        <a href="index.html" id="logo">
-            <h2>The Jets!</h2>
-        </a>
-        <nav>
-          <ul id="menu">
-              <li>
-                  <a href="index.html">home</a>
-              </li>
-              <li>
-                <a href="about.html">about</a>
-            </li>
-              <li>
-                <a href="sign-up.html">sign up</a>
-            </li>
-          </ul>  
-        </nav>
+        <div class="header-menu-box">
+            <a href="index.html" id="logo">
+                <h2>The Jets!</h2>
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a class="active" href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a href="sign-up.html">sign up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h1>Banner and call to action</h1>
+    <section id="hero-outer">
+        <div id="hero-image"></div>
+        <div id="listen-here">
+            <ul>
+            <li><i class="fa fa-spotify"></i></li>
+            <li><i class="fa fa-apple"></i></li>
+            <li><i class="fa fa-youtube"></i></li>
+            </ul>
+        </div>
     </section>
     <section>
         <h1>Upcoming Shows</h1>
@@ -41,4 +53,5 @@
 
     </footer>
 </body>
+
 </html>
