@@ -227,4 +227,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Bugs
 
 -   Menu items displaying back to front when floating list items left. I solved this with a google search to https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
-there was a piece of example code wich showed how to re-order the list items in the menu.
+there was a piece of example code wich showed how to re-order the list items in the menu. I had to float the entire ul right, instead of only the li.
+
+-   Hero image appearing behind header:

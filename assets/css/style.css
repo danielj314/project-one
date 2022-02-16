@@ -18,19 +18,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*--------------------------------------------Colors*/
 
+.bg-col-upcoming-shows {
+    background-color: rgb(0, 0, 0);
+}
 
 
 /*--------------------------------------------Special paddings/margins/text*/
 
-
+.sub-heading {
+    margin: 0 20px 20px 20px;
+    margin-bottom: 20px;
+}
 
 
 
 /*--------------------------------------------Header*/
 
-header {
-    z-index: 1;
-}
 
 nav {
     display: block;
@@ -77,7 +80,7 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #E54B4B;
 }
 
 /*--------------------------------------------Footer*/
@@ -114,8 +117,9 @@ nav {
         transform: scale(1.1);
     }
 }
-
+/* 
 #listen-here {
+    background-color: rgba(255, 0, 0, 0.61);
     bottom: 30px;
     width: 450px;
     height: 100px;
@@ -140,4 +144,70 @@ nav {
     color: #E54B4B;
     background-color: #000;
     border-radius: 50%;
+} */
+
+
+
+/*-------------------------------------------- Live Dates*/
+
+.section-heading {
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.live-show {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fff;
+    border-left: 1px solid;
+}
+
+.live-show p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.live-show:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.live-show:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/*-------------------------------------------- Recent Footage*/
+
+
+
+.recent-show {
+    margin-bottom: 30px;
+    border-bottom: solid 1px #fff;
+    padding: 20px;
+
+}
+
+.live-show-video {
+    max-width: 90%;
 }
