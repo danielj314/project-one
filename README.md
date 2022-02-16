@@ -230,3 +230,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 there was a piece of example code wich showed how to re-order the list items in the menu. I had to float the entire ul right, instead of only the li.
 
 -   Hero image appearing behind header:
+
+
+
+
+### Things to add
+
+-   Play  song  and controls on cover photo
+-   Add buy tickets button below shows
+-   footer - listen here -social media -sign up button
+-   media queeries for phone and tablet - put dropdown menu
+-   change background photo so that its in the page not css and then add the photo descriptors for accessibility.
