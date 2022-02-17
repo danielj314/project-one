@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2fa4b1b3b0.js" crossorigin="anonymous"></script>
+
+
+    <title>The Jets!</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-menu-box">
+            <a href="index.html" id="logo">
+                <h2>The Jets!</h2>
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about</a>
+                    </li>
+                    <li>
+                        <a class="active" href="sign-up.html">sign up</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero-outer">
+        <div id="hero-image"><img class="home-image" src="assets/images/crowd.jpg" alt="The band on stage"></div>
+        <div id="cover-text">
+            <h2>Sign up now!</h2>
+            <p>Be the first to receive the latest news about the band and special offers on tickets and merchandise.</p>
+                        <p>(Don't worry, we wont pass on any of your information)</p>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-4"></div>
+
+                    <div class="col-md-4 form-section">
+                        <section class=" message-box form-section">
+                            <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                                <label for="fname">First Name</label>
+                                <input id="fname" class="text-input" type="text" name="first_name" required />
+                                <label for="lname">Last Name</label>
+                                <input id="lname" class="text-input" type="text"  name="last_name" required />
+                                <label for="email">Email Address</label>
+                                <input id="email" class="text-input" type="email" name="email_address" required/>
+                                <input class="join-button"  type="submit" value="Join!"/>
+                                
+                            </form>
+                    </div>
+        </div>
+    </section>
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 item text">
+                        <h3>Listen here</h3>
+                        <ul>
+                            <li><a href="https://www.spotify.com/" target="_blank"><i class="fa fa-spotify"></i> Spotify
+                                    Music</a></li>
+                            <li><a href="https://music.apple.com/" target="_blank"><i class="fa fa-apple"></i> Apple
+                                    Music</a></li>
+                            <li><a href="https://music.youtube.com/" target="_blank"><i class="fa fa-youtube"></i>
+                                    Youtube Music</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 item text">
+                        <h3>Buy tickets</h3>
+                        <p>Click here to find tickets for upcoming shows.</p>
+                        <p><a href="https://www.ticketmaster.co.uk/">www.ticketmaster.co.uk</a></p>
+                    </div>
+                    <div class="col-md-4 item text">
+                        <h3>Newsletter</h3>
+                        <p>Sign up for updates and special offers.</p>
+                        <p>BUTTON</p>
+                    </div>
+                    <div class="col-md-12 item social">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">The Jets © 2022</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Credit to https://epicbootstrap.com/snippets/footer-dark -->
+</body>
+
+</html>

@@ -233,6 +233,10 @@ there was a piece of example code wich showed how to re-order the list items in 
 
 -   Hero image appearing behind header:
 
+3 columns on about page wouldnt stay on one row. i finally figured out it was because i was adding the margin. i realised that if I reduced the column size in CSS from 33.3% I could then add a margin between the columns.
+
+hero image was stretching to fit screen. i searched google and found a solution at https://stackoverflow.com/questions/1733006/how-to-set-an-images-width-and-height-without-stretching-it which advised using object-fit: cover; in css.
+
 
 
 
