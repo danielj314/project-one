@@ -210,6 +210,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
+-   Footer code copied from https://www.web-eau.net/blog/10-best-footer-html-css-snippets but modified by myself to create desired look.
+
 -   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours) 
  -->
 
