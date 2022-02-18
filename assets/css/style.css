@@ -22,9 +22,6 @@ h6 {
     color: #E54B4B;
 }
 
-/*--------------------------------------------Colors*/
-
-
 /*--------------------------------------------Special paddings/margins/text*/
 
 .sub-heading {
@@ -38,7 +35,6 @@ h6 {
 
 .section-heading {
     letter-spacing: 4px;
-    /* text-align: center; */
     margin-bottom: 40px;
 }
 
@@ -46,9 +42,31 @@ h6 {
     max-width: 32%;
 }
 
+.big-btn {
+    margin: 20px;
+}
+
+.btn {
+    background-color: #E54B4B;
+}
+
+.btn-sm {
+    margin-top: 5px;
+}
+
+.listen {
+    font-family: "Arimo", sans-serif;
+}
+
+.listen i {
+    margin-right: 10px;
+}
+
+a {
+    color: #E54B4B;
+}
 
 /*--------------------------------------------Header*/
-
 
 nav {
     display: block;
@@ -104,14 +122,13 @@ a:hover {
 
 /*--------------------------------------------Footer*/
 
-/* Credit to https://epicbootstrap.com/snippets/footer-dark*/
+/* Credit for original footer code to https://epicbootstrap.com/snippets/footer-dark*/
 
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
     background-color: #000000;
 }
-
 
 .footer-dark h3 {
     margin-top: 0;
@@ -197,7 +214,6 @@ a:hover {
     margin-bottom: 0;
 }
 
-
 /*-------------------------------------------- banner section*/
 
 #hero-image img {
@@ -211,7 +227,6 @@ a:hover {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-
 
 #hero-outer {
     height: 500px;
@@ -230,27 +245,20 @@ a:hover {
     }
 }
 
-
-
-
 #cover-text h2 {
     margin-left: 15px;
     text-align: center;
     letter-spacing: 10px;
-
 }
 
 #cover-text {
     font-size: 200%;
-
     width: fit-content;
     max-width: 450px;
     min-height: 75px;
-
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 20px;
-
     background-color: rgba(29, 25, 25, 0.8);
     border: 1px solid #fff;
     border-radius: 30px;
@@ -267,8 +275,6 @@ a:hover {
 
 /*-------------------------------------------- Live Dates*/
 
-
-
 .live-show {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -281,14 +287,12 @@ a:hover {
     margin: 0;
 }
 
-
 .live-show:before {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
     display: block;
-    font-weight: 500;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -312,8 +316,6 @@ a:hover {
 
 /*-------------------------------------------- Recent Footage*/
 
-
-
 .recent-show {
     margin: 0 10px 30px 10px;
     border: solid 1px #fff;
@@ -325,7 +327,6 @@ a:hover {
 .live-show-video {
     max-width: 100%;
 }
-
 
 /*-------------------------------------------- Band Members*/
 
@@ -395,13 +396,7 @@ td {
     text-align: center;
 }
 
-@media (max-width:991px) {
-    .band-member-social-media .item.social {
-        text-align: center;
-        margin-top: 20px;
-    }
-}
-
+/* Credit for social media buttons css code to https://epicbootstrap.com/snippets/footer-dark*/
 .band-member-social-media .item.social>a {
     font-size: 20px;
     width: 36px;
@@ -422,9 +417,9 @@ td {
 
 /*-------------------------------------------- Sign up page*/
 
-
 .message-box {
     margin: 30px auto;
+    width: fit-content;    
     border: solid 1px #fff;
     border-radius: 30px;
     padding: 20px;
@@ -432,13 +427,10 @@ td {
     text-align: center;
 }
 
-
-
 .signup-form {
-    max-width: 400px;
+    width: 400px;
     padding: 30px;
 }
-
 
 .text-input {
     background: transparent;
@@ -458,10 +450,9 @@ td {
 
 .join-button {
     margin: 20px auto;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    border-radius: 5px;
+    padding: 15px 32px;
     text-align: center;
-    font-size: 100%;
     background-color: #E54B4B;
     color: #fff;
     display: block;
@@ -472,4 +463,52 @@ td {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/*-------------------------------------------- Media queries*/
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+
+    #logo {
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+
+    #menu {
+        margin-bottom: 35px;
+    }
+
+    #cover-text {
+        left: 10%;
+        right: 10%;
+        max-width: 80%;
+    }
+
+    .section-heading {
+        margin-left: 20%;    
+    }
+
+    .live-dates {
+        width: 250%;
+        margin-left: 30%;
+        margin-bottom: 40px;
+    }
+
+    .live-show h4 {
+        margin-top: 20px;
+    }
+
+    .band-member-profile {
+        display: block;
+        max-width: 95%;
+    }
+
+    .form-section {
+        display: block;
+        max-width: 95%;
+    }
+
 }

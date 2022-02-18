@@ -42,8 +42,6 @@ This is the main marketing website for a fictional rockband named The Jets. It i
 
     -   Sign Up Page Wireframe - [View](https://github.com/) 
     
-    -   Mobile site wireframe - 
-
     -->
 
 ## Features
@@ -76,10 +74,10 @@ This is the main marketing website for a fictional rockband named The Jets. It i
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. There are screenshots of the successful test results for each page saved in the git-hub project file (links below)
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+[W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests) 
 
 
 
@@ -87,13 +85,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
+1. As a First Time Visitor, I want to easily understand what the website is for and how to use the service.
+        2. As a First Time Visitor, I want to be able to navigate through the site easily to find the content I need.
+        3. As a First Time Visitor, I want to understand what kind of music the band plays and what their live shows are like. I also want to know who the band bembers are and locate their social media links in order to get to know them better.
+
+
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "watch us!" call to action.
         2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        3. The user can then scroll down, which will lead to information about how to watch the band, either live or on their screen.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to be able to navigate throughout the site easily to find the content I need.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
@@ -210,22 +213,23 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
+
+
+ -->
+
 ### Content
 
--   All content was written by the developer.
+-   All content was written by the developer, apart from the footer section which has been labelled with an acknowledgement.
 
 -   Footer code copied from https://www.web-eau.net/blog/10-best-footer-html-css-snippets but modified by myself to create desired look.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours) 
- -->
+-   When the sign-up form is submitted, the The sign up completed page is copied from a page used in the  
 
 ### Media
 
 -   Images downloaded from https://www.pexels.com/ a free stock photo library.
 
 ### Acknowledgements
-
--   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
 
@@ -241,13 +245,3 @@ there was a piece of example code wich showed how to re-order the list items in 
 
 hero image was stretching to fit screen. i searched google and found a solution at https://stackoverflow.com/questions/1733006/how-to-set-an-images-width-and-height-without-stretching-it which advised using object-fit: cover; in css.
 
-
-
-
-### Things to add
-
--   Play  song  and controls on cover photo
--   Add buy tickets button below shows
--   footer - listen here -social media -sign up button
--   media queeries for phone and tablet - put dropdown menu
--   change background photo so that its in the page not css and then add the photo descriptors for accessibility.
