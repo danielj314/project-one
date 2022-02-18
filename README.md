@@ -2,7 +2,7 @@
 
 [View the live project here.](https://github.com/danielj314/project-one)
 
-This is the main marketing website for The Jets. It is designed to market the band to fans and potential listeners and to inform them of upcoming shows.
+This is the main marketing website for a fictional rockband named The Jets. It is designed to market the band to fans and potential listeners and to inform them of upcoming shows.
 
 
 ## User Experience (UX)
@@ -18,7 +18,7 @@ This is the main marketing website for The Jets. It is designed to market the ba
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information regarding upcoming shows.
-        2. As a Returning Visitor, I want to find the best way to purchase tickets and merchandise.
+        2. As a Returning Visitor, I want to find the best way to purchase tickets for shows.
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any new products or special offers available.
@@ -26,21 +26,25 @@ This is the main marketing website for The Jets. It is designed to market the ba
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Orange and dark blue. These compliment the footage and photographs of the live shows that are used on the website.
+        -   The three main colours used are red, white and black. These compliment the footage and photographs of the live shows that are used on the website.
     -   #### Typography
         -   The Arimo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Arimo is clean and attractive, and appropriate. The "Permanent Marker" font will be used for headings. it is clearly readable and adds character to the site, which reflects the band's strong sound.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It gives the visitor an imediate idea of the style of music that the band plays.
+        -   Imagery is important to express the style of the band. A large, background hero image on each page is designed to be striking and catch the user's attention. It gives the visitor an imediate idea of the style of music that the band plays.
     -   #### Audio
-        -   The most important aspect of any band is the music. this will have to be utilised well on the site.. 
+        -   The most important aspect of any band is the music. The site will ensure visitors can easily listen to the band via various media sites. 
 <!-- 
 *   ### Wireframes
 
     -   Home Page Wireframe - [View](https://github.com/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   About Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/) -->
+    -   Sign Up Page Wireframe - [View](https://github.com/) 
+    
+    -   Mobile site wireframe - 
+
+    -->
 
 ## Features
 
@@ -64,7 +68,7 @@ This is the main marketing website for The Jets. It is designed to market the ba
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on the footer of all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)

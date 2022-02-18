@@ -12,10 +12,16 @@ body {
     color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Permanent Marker";
     color: #E54B4B;
 }
+
 /*--------------------------------------------Colors*/
 
 
@@ -53,7 +59,7 @@ nav {
     font-size: 250%;
 }
 
-#logo > h2:hover {
+#logo>h2:hover {
     color: rgb(209, 97, 97);
 }
 
@@ -98,96 +104,98 @@ a:hover {
 
 /*--------------------------------------------Footer*/
 
-.footer-dark {
-    padding:50px 0;
-    color:#f0f9ff;
-    background-color:#000000;
-  }
-  
+/* Credit to https://epicbootstrap.com/snippets/footer-dark*/
 
-  .footer-dark h3 {
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:16px;
-  }
-  
-  .footer-dark ul {
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:14px;
-    margin-bottom:0;
-  }
-  
-  .footer-dark ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.6;
-  }
-  
-  .footer-dark ul a:hover {
-    opacity:0.8;
-  }
-  
-  @media (max-width:767px) {
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #000000;
+}
+
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:767px) {
     .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
+        text-align: center;
+        padding-bottom: 20px;
     }
-  }
-  
-  .footer-dark .item.text {
-    margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
     .footer-dark .item.text {
-      margin-bottom:0;
+        margin-bottom: 0;
     }
-  }
-  
-  .footer-dark .item.text p {
-    opacity:0.6;
-    margin-bottom:0;
-  }
-  
-  .footer-dark .item.social {
-    text-align:center;
-  }
-  
-  @media (max-width:991px) {
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
     .footer-dark .item.social {
-      text-align:center;
-      margin-top:20px;
+        text-align: center;
+        margin-top: 20px;
     }
-  }
-  
-  .footer-dark .item.social > a {
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:0 8px;
-    color:#fff;
-    opacity:0.75;
-  }
-  
-  .footer-dark .item.social > a:hover {
-    opacity:0.9;
-  }
-  
-  .footer-dark .copyright {
-    text-align:center;
-    padding-top:24px;
-    opacity:0.3;
-    font-size:13px;
-    margin-bottom:0;
-  }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
 
 
 /*-------------------------------------------- banner section*/
@@ -216,6 +224,7 @@ a:hover {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -364,7 +373,6 @@ a:hover {
 
 .band-answer {
     vertical-align: center;
-    margin bottom 20px
 }
 
 tr {
@@ -374,6 +382,8 @@ tr {
 
 td {
     width: 50%;
+    padding-bottom: 5px;
+
 }
 
 .band-member-social-media {
@@ -382,35 +392,35 @@ td {
 }
 
 .band-member-social-media .item.social {
-    text-align:center;
-  }
-  
-  @media (max-width:991px) {
+    text-align: center;
+}
+
+@media (max-width:991px) {
     .band-member-social-media .item.social {
-      text-align:center;
-      margin-top:20px;
+        text-align: center;
+        margin-top: 20px;
     }
-  }
-  
-.band-member-social-media .item.social > a {
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:10px 8px;
-    color:#fff;
-    opacity:0.75;
-  }
-  
-  .band-member-social-media .item.social > a:hover {
-    opacity:0.9;
-  }
-  
-  /*-------------------------------------------- Sign up page*/
+}
+
+.band-member-social-media .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 10px 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.band-member-social-media .item.social>a:hover {
+    opacity: 0.9;
+}
+
+/*-------------------------------------------- Sign up page*/
 
 
 .message-box {
@@ -462,3 +472,4 @@ td {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
