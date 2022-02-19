@@ -21,7 +21,7 @@ This is the main marketing website for a fictional rockband named The Jets. It i
         2. As a Returning Visitor, I want to find the best way to purchase tickets for shows.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any new products or special offers available.
+        1. As a Frequent User, I want to check to see if there are any new show dates added.
         2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Design
@@ -33,16 +33,16 @@ This is the main marketing website for a fictional rockband named The Jets. It i
         -   Imagery is important to express the style of the band. A large, background hero image on each page is designed to be striking and catch the user's attention. It gives the visitor an imediate idea of the style of music that the band plays.
     -   #### Audio
         -   The most important aspect of any band is the music. The site will ensure visitors can easily listen to the band via various media sites. 
-<!-- 
+
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/index-page-wireframe.png)
 
-    -   About Wireframe - [View](https://github.com/)
+    -   About Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/about-page-wireframe.png)
 
-    -   Sign Up Page Wireframe - [View](https://github.com/) 
+    -   Sign Up Page Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/sign-up-page-wireframe.png) 
     
-    -->
+   
 
 ## Features
 
@@ -81,81 +81,67 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-<!-- ### Testing User Stories from User Experience (UX) Section
+ ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
-
-1. As a First Time Visitor, I want to easily understand what the website is for and how to use the service.
-        2. As a First Time Visitor, I want to be able to navigate through the site easily to find the content I need.
-        3. As a First Time Visitor, I want to understand what kind of music the band plays and what their live shows are like. I also want to know who the band bembers are and locate their social media links in order to get to know them better.
 
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "watch us!" call to action.
-        2. The main points are made immediately with the hero image
+        2. The main points are made immediately with the hero image.
         3. The user can then scroll down, which will lead to information about how to watch the band, either live or on their screen.
 
     2. As a First Time Visitor, I want to be able to navigate throughout the site easily to find the content I need.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what information will be located on each page.
+        2. At the bottom of each there are links to further relevant sites and pages to ensure the user doesnt get trapped.
+        3. On the sign up Page, after a form response is submitted, a new page will open in a separate tab to assure the user that the form has been submitted.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I want to understand what kind of music the band plays and what their live shows are like. I also want to know who the band bembers are and locate their social media links in order to get to know them better.
+
+        1. Once the new visitor has watched some videos of recent shows on the home page they can move on to the about page to get to know the band members individually.
+        2. There are social media links for the individual band members located under their profiles on the about me page and there are links to the band's social media pages at the bottom of each page in the footer..
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+    1. As a Returning Visitor, I want to find information regarding upcoming shows.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+        1. Upcoming shows are listed on the homepage.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+    2. As a Returning Visitor, I want to find the best way to purchase tickets for shows.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+        1. Below the upcoming shows section there is a button that directs the user to a ticket selling webpage in another tab.
+        2. There is a link to the ticket sales website on the footer of each page of the website.
+
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to check to see if there are any new show dates added.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The user should be comfortable enough with the website layout having visited before.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to sign up to the newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The user would already be comfortable with the website layout and can easily find links in the menu, or footer section to access the sugn up page.
 
     3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
         1. At the bottom of every page their is a footer which content is consistent throughout all pages.
         2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
         3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The Website was tested on Google Chrome, Samsung Internet and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung A72.
+-   Testing was undertaken by the developer to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site to ensure it was workable and that they could not find any bugs.
 
 ### Known Bugs
-
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   there are no known bugs 
 
 ## Deployment
+<!--
 
 ### GitHub Pages
 
@@ -223,11 +209,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Footer code copied from https://www.web-eau.net/blog/10-best-footer-html-css-snippets but modified by myself to create desired look.
 
--   When the sign-up form is submitted, the The sign up completed page is copied from a page used in the  
+-   When the sign-up form is submitted, the The sign up completed page is simply a link to a google image. This would be changed in future when I have deloped my javascript coding skills.
 
 ### Media
 
--   Images downloaded from https://www.pexels.com/ a free stock photo library.
+-   All images downloaded from https://www.pexels.com/ a free stock photo library.
+-   The music videos on the site are linked from https://www.youtube.com/ . As the band is fictional another band's music videos were linked as example pieces.
 
 ### Acknowledgements
 
@@ -239,9 +226,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Menu items displaying back to front when floating list items left. I solved this with a google search to https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
 there was a piece of example code wich showed how to re-order the list items in the menu. I had to float the entire ul right, instead of only the li.
 
--   Hero image appearing behind header:
+-   Hero image appearing behind header: this was resolved by re-watching tutorial videos provided by Code institute in the css module.
 
-3 columns on about page wouldnt stay on one row. i finally figured out it was because i was adding the margin. i realised that if I reduced the column size in CSS from 33.3% I could then add a margin between the columns.
+-   3 columns on about page wouldnt stay on one row. I finally figured out it was because i was adding a margin to the collumns, thus increasing the size of each, meaning three columns covering 1/3 of the screen each could not fit onto one row. I realised that if I reduced the column size in CSS from 33.3% to 32%, I could then add a margin between the columns.
 
-hero image was stretching to fit screen. i searched google and found a solution at https://stackoverflow.com/questions/1733006/how-to-set-an-images-width-and-height-without-stretching-it which advised using object-fit: cover; in css.
+-   Hero image was stretching to fit screen. I searched google and found a solution at https://stackoverflow.com/questions/1733006/how-to-set-an-images-width-and-height-without-stretching-it which advised using the code "object-fit: cover;" in css.
 

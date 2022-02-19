@@ -81,7 +81,7 @@ nav {
     color: rgb(209, 97, 97);
 }
 
-a:hover {
+btn:hover, a:hover {
     text-decoration: none;
 }
 
