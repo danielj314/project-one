@@ -8,6 +8,7 @@ This is the main marketing website for a fictional rockband named The Jets. It i
 ## User Experience (UX)
 
 -   ### User stories
+    Here are the goals that the website should achieve for each user.
 
     -   #### First Time Visitor Goals
 
@@ -40,14 +41,9 @@ This is the main marketing website for a fictional rockband named The Jets. It i
         -   The most important aspect of any band is the music. The site will ensure visitors can easily listen to the band via various media sites. 
 
 *   ### Wireframes
-    Wireframes were produced at the beginning of the project. These were used for reference during the coding process. Below are links to the wireframes for each of the website's pages:
+    Wireframes were produced at the beginning of the project using [Balsamiq](https://balsamiq.com/wireframes/cloud/). These were used for reference during the coding process. Below are links to the wireframes for each of the website's pages. There are separate wireframes for desktop, tablet and mobile - [Wireframes](https://github.com/danielj314/project-one/tree/main/wireframes)
 
-    -   Home Page Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/index-page-wireframe.png)
 
-    -   About Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/about-page-wireframe.png)
-
-    -   Sign Up Page Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/sign-up-page-wireframe.png) 
-    
    
 ## Features
 
@@ -67,16 +63,19 @@ This is the main marketing website for a fictional rockband named The Jets. It i
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
+2. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons used throughout the site as well as on any clickable items such as the menu items and buttons.
-1. [Google Fonts:](https://fonts.google.com/)
+3. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Arimo' and 'Permanent Marker' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+4. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on the footer of all pages throughout the website to add icons for social media links and for music streaming pages for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
+5. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+7.  [Balsamiq](https://balsamiq.com/wireframes/cloud/)
+    -   Used to create wireframes for the website at the beginning of the project.
+
 
 ## Testing
 
@@ -85,13 +84,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests) 
 
--   Google Lighthouse testing was used to ensure that the site met sufficient performance, accessibility and good practice standards. Here are links to the results for each of the pages - index page - [Results](https://github.com/danielj314/project-one/tree/main/tests)
-
-
-
-
-
-
+-   Google Lighthouse testing was used to ensure that the site met sufficient performance, accessibility and good practice standards. Here are links to screenshots of the results for each of the three pages. - [Results](https://github.com/danielj314/project-one/tree/main/tests)
 
  ### Testing User Stories from User Experience (UX) Section
 
