@@ -23,18 +23,24 @@ This is the main marketing website for a fictional rockband named The Jets. It i
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any new show dates added.
         2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        3. As a frequent user i would like to buy merchandise from the band.
 
 -   ### Design
+
     -   #### Colour Scheme
         -   The three main colours used are red, white and black. These compliment the footage and photographs of the live shows that are used on the website.
+
     -   #### Typography
-        -   The Arimo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Arimo is clean and attractive, and appropriate. The "Permanent Marker" font will be used for headings. it is clearly readable and adds character to the site, which reflects the band's strong sound.
+        -   The Arimo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font cannot be imported. Arimo is clear to read and attractive. The "Permanent Marker" font will be used for headings. it is clearly readable and adds character to the site, which reflects the band's strong sound.
+
     -   #### Imagery
         -   Imagery is important to express the style of the band. A large, background hero image on each page is designed to be striking and catch the user's attention. It gives the visitor an imediate idea of the style of music that the band plays.
+
     -   #### Audio
         -   The most important aspect of any band is the music. The site will ensure visitors can easily listen to the band via various media sites. 
 
 *   ### Wireframes
+    Wireframes were produced at the beginning of the project. These were used for reference during the coding process. Below are links to the wireframes for each of the website's pages:
 
     -   Home Page Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/index-page-wireframe.png)
 
@@ -43,12 +49,12 @@ This is the main marketing website for a fictional rockband named The Jets. It i
     -   Sign Up Page Wireframe - [View](https://github.com/danielj314/project-one/blob/main/wireframes/sign-up-page-wireframe.png) 
     
    
-
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes, from 320px mobile devices to 1200px desktop screens.
 
--   Interactive elements
+-   Interactive elements, such as social media buttons and links to external sites are included to give users more information about the band and to increase activity on social media pages.
+
 
 ## Technologies Used
 
@@ -62,11 +68,11 @@ This is the main marketing website for a fictional rockband named The Jets. It i
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the Social Media icons used throughout the site as well as on any clickable items such as the menu items and buttons.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Arimo' and 'Permanent Marker' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on the footer of all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on the footer of all pages throughout the website to add icons for social media links and for music streaming pages for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
@@ -79,22 +85,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests) 
 
-<!-- I used Google Lighthouse testing to ensure that i was using good practice and ....
+-   Google Lighthouse testing was used to ensure that the site met sufficient performance, accessibility and good practice standards. Here are links to the results for each of the pages - index page - [Results](https://github.com/danielj314/project-one/tree/main/tests)
 
 
 
 
 
 
-
-
-
-
-
-
-
-
- -->
 
  ### Testing User Stories from User Experience (UX) Section
 
@@ -137,92 +134,132 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The user should be comfortable enough with the website layout having visited before.
 
-    2. As a Frequent User, I want to sign up to the newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-
+    2. As a Frequent User, I want to sign up to the newsletter so that I am emailed any major news and/or information about new tour dates or albums.
         1. The user would already be comfortable with the website layout and can easily find links in the menu, or footer section to access the sugn up page.
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
         2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+        3. There is a "Submit" button directly below the input field.
+
+    3. As a frequent user i would like to buy merchandise from the band.
+        1. There is currently no page on the website dedicated to selling merchandise, nor are there any links to external sites where users could find any. This would be something that I would like to add to the website in the future in order to improve the frequent visitor's experience.
+
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Samsung Internet and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung A72.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Samsung A72 and iPhone X.
 -   Testing was undertaken by the developer to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site to ensure it was workable and that they could not find any bugs.
 
+### Bug fixes
+
+-   Menu items displaying back to front when floating list items left. I solved this with a google search to https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
+there was a piece of example code wich showed how to re-order the list items in the menu. I had to float the entire ul right, instead of only the li.
+
+-   My logo was underlined blue each time I hovered over it. using the google inspect tool, I realised that it was not underlined but had a blue background due to bootstrap styling. as this was a text decoration i used the code "text-decoration: none;" in my css file which overrides this background color.
+
+-   Hero image appearing behind header: this was resolved by re-watching tutorial videos provided by Code institute in the css module and insertin a margin top onto the hero image div.
+
+-   3 columns on about page wouldnt stay on one row. I finally figured out it was because i was adding a margin to the collumns, thus increasing the size of each, meaning three columns covering 1/3 of the screen each could not fit onto one row. I realised that if I reduced the column size in CSS from 33.3% to 32%, I could then add a margin between the columns.
+
+-   Hero image was stretching to fit screen. I searched google and found a solution at https://stackoverflow.com/questions/1733006/how-to-set-an-images-width-and-height-without-stretching-it which advised using the code "object-fit: cover;" in css.
+
+
+
 ### Known Bugs
--   there are no known bugs 
+-   the menu items are off center at certain small to medium screen sizes. 
+-   the signup form is slightly off center at certain screen sizes. 
 
 ## Deployment
-<!--
+
 
 ### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/danielj314/project-one)
+2. At the top of the Repository, locate the "Settings" Button on the menu.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+4. Under "Source", click the dropdown called "None" and select "Main".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
+
+
 ### Forking the GitHub Repository
+
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
+
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
 3. You should now have a copy of the original repository in your GitHub account.
+
 
 ### Making a Local Clone
 
+
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
 2. Under the repository name, click "Clone or download".
+
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
 4. Open Git Bash
+
 5. Change the current working directory to the location where you want the cloned directory to be made.
+
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
+
 ```
+
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 ```
+
 
 7. Press Enter. Your local clone will be created.
 
+
 ```
+
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
 > Cloning into `CI-Clone`...
+
 > remote: Counting objects: 10, done.
+
 > remote: Compressing objects: 100% (8/8), done.
+
 > remove: Total 10 (delta 1), reused 10 (delta 1)
+
 > Unpacking objects: 100% (10/10), done.
+
 ```
+
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-## Credits
+
+
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [gitpod template](https://github.com/Code-Institute-Org/gitpod-full-template) : The Code Institute gitpod full template was used to build the site on gitpod.
 
 
-
- -->
 
 ### Content
 
 -   All content was written by the developer, apart from the footer section which has been labelled with an acknowledgement.
 
 -   Footer code copied from https://www.web-eau.net/blog/10-best-footer-html-css-snippets but modified by myself to create desired look.
+
+-   Bootstrap4 code is used to create responsive containers within the site. These classes were then modified my myself in order to achieve the desired outcomes for this website.
 
 -   When the sign-up form is submitted, the The sign up completed page is simply a link to a google image. This would be changed in future when I have deloped my javascript coding skills.
 
@@ -235,17 +272,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Tutor support at Code Institute for their support.
 
-
-### Bugs
-
--   Menu items displaying back to front when floating list items left. I solved this with a google search to https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
-there was a piece of example code wich showed how to re-order the list items in the menu. I had to float the entire ul right, instead of only the li.
-
-my logo was underlined blue each time i hovered over it. using the google inspect tool, I realised that it was not underlined but had a blue background due to bootstrap styling. as this was a text decoration i used the code "text-decoration: none;" in my css file which overrides this background color.
-
--   Hero image appearing behind header: this was resolved by re-watching tutorial videos provided by Code institute in the css module.
-
--   3 columns on about page wouldnt stay on one row. I finally figured out it was because i was adding a margin to the collumns, thus increasing the size of each, meaning three columns covering 1/3 of the screen each could not fit onto one row. I realised that if I reduced the column size in CSS from 33.3% to 32%, I could then add a margin between the columns.
-
--   Hero image was stretching to fit screen. I searched google and found a solution at https://stackoverflow.com/questions/1733006/how-to-set-an-images-width-and-height-without-stretching-it which advised using the code "object-fit: cover;" in css.
+-   The slack community.
 
