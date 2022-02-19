@@ -428,7 +428,8 @@ td {
 }
 
 .signup-form {
-    width: 400px;
+    width: 300px;
+    max width: 100%;
     padding: 30px;
 }
 
@@ -473,12 +474,14 @@ td {
     }
 
     #logo {
-        margin-left: 60px;
+        margin-left: 25%;
         margin-top: 10px;
     }
 
     #menu {
         margin-bottom: 35px;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     #cover-text {

@@ -76,10 +76,25 @@ This is the main marketing website for a fictional rockband named The Jets. It i
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. There are screenshots of the successful test results for each page saved in the git-hub project file (links below)
 
-[W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/danielj314/project-one/tree/main/tests) 
 
+<!-- I used Google Lighthouse testing to ensure that i was using good practice and ....
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->
 
  ### Testing User Stories from User Experience (UX) Section
 
@@ -225,6 +240,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Menu items displaying back to front when floating list items left. I solved this with a google search to https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
 there was a piece of example code wich showed how to re-order the list items in the menu. I had to float the entire ul right, instead of only the li.
+
+my logo was underlined blue each time i hovered over it. using the google inspect tool, I realised that it was not underlined but had a blue background due to bootstrap styling. as this was a text decoration i used the code "text-decoration: none;" in my css file which overrides this background color.
 
 -   Hero image appearing behind header: this was resolved by re-watching tutorial videos provided by Code institute in the css module.
 
